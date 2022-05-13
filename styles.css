@@ -1,0 +1,166 @@
+body {
+    font-family: "Lato", sans-serif;
+  }
+
+  .sidenav {
+    height: 100%;
+    width: 180px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #340077d3;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #e9e9e9;
+    display: block;
+  }
+  
+  .sidenav a:hover {
+    color: #dcc1ff;
+  }
+  
+  .button {
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 28px;
+    margin: 20px 15px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: white;
+    color: #000000;
+    border: 2px solid #b47bff;
+    border-radius: 16px;
+  }
+
+  .button:hover{    
+    background-color: #b47bff;
+    color: white;
+  }
+
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 40%;
+  }
+
+  .card:hover{    
+    color: #000000;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.76);
+  }
+
+  .container {
+    padding: 2px 16px;
+    margin-bottom: 20px;
+  }
+
+.row {margin: 0 -5px;}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.homepic{
+  border-radius: 30px;
+  margin-top: 10px;
+  }
+
+.notpic{
+  border-radius: 50%;
+  width: 4%;
+  height: 4%;
+  }
+
+  .main {
+    margin-left: 180px; 
+    font-size: 28px; 
+    padding: 0px 20px;
+  }
+  
+  .post{
+    font-size: 24px;
+    color: gray;
+    font-style: italic;
+    margin-bottom: -20px;
+  }
+
+  .notification{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 100%;
+    margin-bottom:10px;
+    border-radius: 10px;
+  }
+
+  .notification:hover{    
+    color: #000000;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.76);
+  }
+
+  .setting {
+    height: 100%;
+    width: 320px;
+    z-index: 1;
+    color: rgb(32, 32, 32);
+    cursor: pointer;
+    position: fixed
+  }
+
+  .setting p{
+    padding-bottom: 20px
+  }
+
+  .setting p:hover{
+    text-decoration: underline;
+    color: #7b43c5;
+  }
+
+  .rightset{
+    margin-left: 28%; 
+    font-size: 28px; 
+    padding: 1px 20px;
+  }
+
+  .rightset p{
+    padding-bottom: 20px;
+    cursor: pointer;
+  }
+
+  .rightset p:hover{
+    text-decoration: underline;
+    color: #7b43c5;
+  }
+
+  .clicked {
+    text-decoration: underline;
+    color: #7b43c5;
+  }
+
+  .vl {
+    border-left: 1px solid black;
+    height: 100%;
+    position: absolute;
+    left: 35%;
+    margin-left: -3px;
+    top: 118px;
+  }
+
+  .rightset h3{
+    margin-top: 10px;
+    padding-bottom: 20px
+  }
+
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
